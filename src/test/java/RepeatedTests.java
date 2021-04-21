@@ -23,7 +23,7 @@ public class RepeatedTests {
     @RepeatedTest(5)
     void addNumber(TestInfo testInfo) {
         Calculator calculator = new Calculator();
-        Assertions.assertEquals(2, calculator.add(1, 2), "1 + 1 should equal 2");
+        Assertions.assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
         System.out.println("===addNumber testcase executed===");
     }
 
