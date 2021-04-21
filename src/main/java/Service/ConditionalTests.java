@@ -34,7 +34,7 @@ public class ConditionalTests {
         assertSame(str, str);
         assertNotSame(str, str2);
 
-        assertEquals(5, 6);
+        assertEquals(5, 5);
         assertNotEquals(5, 6);
 
         assertArrayEquals(a1, a2);
